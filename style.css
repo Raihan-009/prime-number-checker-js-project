@@ -1,1 +1,111 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+body {
+  background-color: #f5af50;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 100vh;
+}
+
+body .background {
+  background-color: white;
+  width: 480px;
+  height: auto;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+body .background .heading h2 {
+  font-size: 35px;
+  margin-top: 0px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+body .background .heading p {
+  font-size: 18px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: grey;
+}
+
+body .background .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .background .content input {
+  width: 98%;
+  height: 45px;
+  outline: none;
+  border: 1px solid grey;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+body .background .content input:focus {
+  -webkit-box-shadow: 0 2px 5px black;
+          box-shadow: 0 2px 5px black;
+}
+
+body .background .content input::-webkit-input-placeholder {
+  text-align: center;
+}
+
+body .background .content input:-ms-input-placeholder {
+  text-align: center;
+}
+
+body .background .content input::-ms-input-placeholder {
+  text-align: center;
+}
+
+body .background .content input::placeholder {
+  text-align: center;
+}
+
+body .background .content button {
+  width: 101%;
+  height: 45px;
+  background-color: #f5af50;
+  outline: none;
+  border: 1px solid grey;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 5px;
+  opacity: 0.6;
+}
+
+body .background .content .active {
+  opacity: 1;
+}
+
+body .background .output {
+  font-size: 20px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+body .background .output span {
+  color: #f5af50;
+}
+/*# sourceMappingURL=style.css.map */
