@@ -1,14 +1,15 @@
 const inputNumber = document.querySelector(".input-number");
-const checkButton = document.querySelector(".check-button");
+//const checkButton = document.querySelector(".check-button");
+const checkButton = document.querySelector("button");
+checkButton.disabled = true;
 const outputText = document.querySelector(".output");
 inputNumber.addEventListener("keyup", () => {
   filterNumber = inputNumber.value.replace(/[^0-9]/gi, "");
   // console.log(filterNumber);
 
   if (filterNumber) {
-    return checkButton.classList.add("active");
+    return (checkButton.disabled = false);
   }
-  checkButton.classList.remove("active");
   outputText.style.display = "none";
 });
 

@@ -1,3 +1,8 @@
+/**
+*
+* Testing
+*
+**/
 body {
   background-color: #f5af50;
   display: -webkit-box;
@@ -62,6 +67,12 @@ body .background .content input {
   margin-bottom: 10px;
 }
 
+@media (max-width: 576px) {
+  body .background .content input {
+    text-align: center;
+  }
+}
+
 body .background .content input:focus {
   -webkit-box-shadow: 0 2px 5px black;
           box-shadow: 0 2px 5px black;
@@ -92,10 +103,6 @@ body .background .content button {
   border-radius: 5px;
   font-size: 20px;
   padding: 5px;
-  opacity: 0.6;
-}
-
-body .background .content .active {
   opacity: 1;
 }
 
