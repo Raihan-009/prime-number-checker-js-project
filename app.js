@@ -10,6 +10,7 @@ inputNumber.addEventListener("keyup", () => {
   if (filterNumber) {
     return (checkButton.disabled = false);
   }
+  checkButton.disabled = true;
   outputText.style.display = "none";
 });
 
